@@ -1,0 +1,163 @@
+<style>
+.youtube-channel {
+    display: flex;
+    max-width: 507px;
+    flex-direction: column;
+}
+
+.channel-header {
+    background-color: #da2323;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 152px 0 40px;
+}
+
+.channel-info {
+    align-self: start;
+}
+
+.channel-title-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.channel-logo {
+    width: 29%;
+}
+
+.channel-logo-img {
+    aspect-ratio: 0.95;
+    object-fit: contain;
+    object-position: center;
+    width: 139px;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.channel-title {
+    width: 71%;
+}
+
+.channel-name {
+    color: #fff;
+    align-self: stretch;
+    margin: auto 0;
+    font: 400 50px/10px Inter, sans-serif;
+}
+
+.channel-content {
+    display: flex;
+    margin-top: 9px;
+    width: 100%;
+    padding-left: 49px;
+    flex-direction: column;
+}
+
+.channel-images {
+    align-self: end;
+    display: flex;
+    gap: 32px;
+}
+
+.channel-image-1 {
+    aspect-ratio: 0.87;
+    object-fit: contain;
+    object-position: center;
+    width: 123px;
+    align-self: start;
+    margin-top: 18px;
+    max-width: 100%;
+}
+
+.channel-image-2 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 170px;
+    max-width: 100%;
+}
+
+.channel-subtitle {
+    color: #fff;
+    align-self: start;
+    margin-top: 76px;
+    font: 400 80px/1 Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .channel-header {
+        max-width: 100%;
+        padding-top: 100px;
+    }
+
+    .channel-info {
+        max-width: 100%;
+    }
+
+    .channel-title-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .channel-logo,
+    .channel-title {
+        width: 100%;
+    }
+
+    .channel-logo-img {
+        margin-top: 12px;
+    }
+
+    .channel-name {
+        margin-top: 34px;
+        font-size: 40px;
+        line-height: 9px;
+    }
+
+    .channel-content {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+
+    .channel-subtitle {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+</style>
+
+<section class="youtube-channel">
+    <header class="channel-header">
+        <div class="channel-info">
+            <div class="channel-title-wrapper">
+                <div class="channel-logo">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/91ebe8689a01290f9321a1299c6ccec23bc7edf007d4c5d11f5b021b83508d39?placeholderIfAbsent=true&apiKey=15f0a6a24cfd46edb1c29582b280f9ca" class="channel-logo-img" alt="YouTube channel logo" />
+                </div>
+                <div class="channel-title">
+                    <h1 class="channel-name">ブンブンハロー<br /><br /><br /><br /><br /><br />Youtube</h1>
+                </div>
+            </div>
+        </div>
+        <div class="channel-content">
+            <div class="channel-images">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/39f00cd6365d67920f433bf4f9c2a05056293066a8c615ff69df07dea3b962a8?placeholderIfAbsent=true&apiKey=15f0a6a24cfd46edb1c29582b280f9ca" class="channel-image-1" alt="Channel related image 1" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5172b1ec15a1bf03a784a320d9c483dbd32f66d71815b1229d3d7d15b28995b7?placeholderIfAbsent=true&apiKey=15f0a6a24cfd46edb1c29582b280f9ca" class="channel-image-2" alt="Channel related image 2" />
+            </div>
+            <h2 class="channel-subtitle">HIKAKINN</h2>
+        </div>
+    </header>
+</section>
